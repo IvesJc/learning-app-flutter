@@ -5,21 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "learning_app",
-            "request": "launch",
-            "type": "dart"
-        },
-        {
-            "name": "learning_app (profile mode)",
+            "name": "learning_app (debug mode)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "profile"
-        },
-        {
-            "name": "learning_app (release mode)",
-            "request": "launch",
-            "type": "dart",
-            "flutterMode": "release"
+            "flutterMode": "debug",
+            "args": [
+                "--web-renderer=html",
+                "auto"
+            ]
         }
     ]
 }
